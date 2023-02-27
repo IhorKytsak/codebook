@@ -9,6 +9,14 @@
   width: 100%;
 }
 
+.preview-error {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: red;
+  margin: 8px;
+}
+
 .react-draggable-transparent-selection .preview-wrapper:after {
   content: '';
   position: absolute;
