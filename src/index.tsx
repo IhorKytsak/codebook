@@ -3,7 +3,6 @@ import './index.css';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { store } from './state';
-import TextEditor from './components/text-editor';
 import CellList from './components/cell-list';
 
 const App = () => {

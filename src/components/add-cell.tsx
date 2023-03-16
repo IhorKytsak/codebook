@@ -23,7 +23,10 @@ const AddButton: React.FC<AddButtonProps> = ({ onClick, text }) => {
   );
 };
 
-const AddCell: React.FC<AddCellProps> = ({ previousCellId, forceVisible }) => {
+const AddCell: React.FC<AddCellProps> = ({
+  previousCellId,
+  forceVisible = '',
+}) => {
   const { insertCellAfter } = useActions();
 
   return (
