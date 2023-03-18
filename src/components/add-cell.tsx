@@ -1,5 +1,5 @@
 import { VscAdd } from 'react-icons/vsc';
-import { useActions } from '../hooks/useActions';
+import { useActions } from '../hooks/use-actions';
 import './add-cell.css';
 
 interface AddCellProps {

@@ -1,5 +1,5 @@
 import { VscArrowUp, VscArrowDown, VscChromeClose } from 'react-icons/vsc';
-import { useActions } from '../hooks/useActions';
+import { useActions } from '../hooks/use-actions';
 
 import './action-bar.css';
 
